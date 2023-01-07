@@ -1,0 +1,525 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
+    />
+    <title>
+      Módulo 2: Neoclasicismo XVIII| CVA - Centro Virtual de
+      Aprendizaje
+    </title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
+
+    <!-- plugins css -->
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css"
+    />
+
+    <!-- page plugins css -->
+
+    <!-- core css -->
+    <link href="../../assets/css/ei-icon.css" rel="stylesheet" />
+    <link href="../../assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../../assets/css/animate.min.css" rel="stylesheet" />
+    <link href="../../assets/css/app.css" rel="stylesheet" />
+    <link href="../../assets/css/progress.css" rel="stylesheet" />
+    <link href="../../assets/css/progress-circle.css" rel="stylesheet" />
+
+    <style>
+      .card-hover:hover {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body class="header-info side-nav-dark">
+    <div class="app">
+      <div class="layout">
+        <!-- Side Nav START -->
+        <div class="side-nav" id="sideNav"></div>
+        <!-- Side Nav END -->
+        <!-- Page Container START -->
+        <div class="page-container">
+          <!-- Header START -->
+          <div class="header navbar"></div>
+          <!-- Header END -->
+          <!-- Content Wrapper START -->
+          <div class="main-content">
+            <div class="container-fluid">
+              <!-- Your content goes here -->
+
+              <div class="row">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-horizon">
+                      <div class="card-block">
+                        <h1 class="card-title">
+                          <span
+                            class="badge badge-light"
+                            style="font-size: 26px"
+                            >Tema 2: Neoclasicismo XVIII
+                          </span>
+                        </h1>
+                        <p class="card-info">
+                          <i class="icon ti-mouse-alt"></i
+                          ><label
+                            >Haz clic en las imagenes para saber más de cada tipo
+                            de componente.</label
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tipos de componentes-->
+              <div class="row">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-block">
+
+                      <div class="mrg-top-20">
+                        <div class="row" style="justify-content: center;">
+                          <div
+                            style="width:30%;"
+                            onclick="showModal(2)"
+                          >
+                            <div class="card card-hover">
+                              <div
+                                class="overlay-dark bg"
+                                style="
+                                  background-image: url('../../assets/images/course/Modulo_2/Modulo2_maria.png');
+                                "
+                              >
+                                <div class="card-block">
+                                  <div class="mrg-top-130">
+                                    <h2>Neoclasicismo <br></h2>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Botones de avance entre páginas-->
+              <div class="row mrg-btm-20">
+                <div class="col text-center">
+                  <div class="btn-group"></div>
+                </div>
+              </div>
+
+              <!--Widgets de avance de módulo y general-->
+              <div class="card widget-feed">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h1 class="feed-title tag tag-info">Módulo 2</h1>
+                    <h3 class="feed-subtitle">Tu Progreso</h3>
+                    <div class="progress" style="height: 20px" id="bar">
+                      <div
+                        class="progress-bar bg-info"
+                        role="progressbar"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="max-width: 29%"
+                      >
+                        29%
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="row">
+                      <div class="col">
+                        <div id="circlecontainer"></div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col text-center">
+                        <h3 class="feed-subtitle">
+                          Progreso General del Curso
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <aside>
+          <!-- Content Wrapper END -->
+            <!-- Modal for Dispositivos de salida-->
+            <div class="modal fade" id="outputDev" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2 class="modal-title align-self-center">
+                      Dispositivos salida
+                    </h2>
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <ul
+                      class="nav nav-pills mb-3 pt-3"
+                      id="pills-tab"
+                      role="tablist"
+                    >
+                      <li class="nav-item">
+                        <a
+                          class="nav-link active"
+                          id="pills-impresora-tab"
+                          data-toggle="pill"
+                          href="#pills-impresora"
+                          role="tab"
+                          aria-controls="pills-impresora"
+                          aria-selected="true"
+                          >Rococó</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link"
+                          id="pills-monitor-tab"
+                          data-toggle="pill"
+                          href="#pills-monitor"
+                          role="tab"
+                          aria-controls="pills-monitor"
+                          aria-selected="false"
+                          >Impacto</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link"
+                          id="pills-bocina-tab"
+                          data-toggle="pill"
+                          href="#pills-bocina"
+                          role="tab"
+                          aria-controls="pills-bocina"
+                          aria-selected="false"
+                          >Influencia</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link"
+                          id="pills-disp-tab"
+                          data-toggle="pill"
+                          href="#pills-disp"
+                          role="tab"
+                          aria-controls="pills-disp"
+                          aria-selected="false"
+                          >Finalmente</a
+                        >
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                      <div
+                        class="tab-pane fade show active"
+                        id="pills-impresora"
+                        role="tabpanel"
+                        aria-labelledby="pills-impresora-tab"
+                      >
+                        <div class="row">
+                          <div class="image-container col-md-3">
+                            <img
+                              src="../../assets/images/course/Modulo_2/Modulo2_hombre_sombrero.png"
+                              alt="impresora"
+                            />
+                            <!--216126646-->
+                            <!--1049696795-->
+                          </div>
+                          <div class="col-md-9">
+                            <h5>
+                              Durante la transición entre el periodo Barroco y el Neoclasicismo visto 
+                              en Hispanoamérica ocurrió brevemente el periodo conocido como el Rococó, 
+                              el cual solo vivió medio siglo hasta 1750 que se oficializó la llegada del 
+                              Neoclasicismo. Como se mencionó en el movimiento anterior, el Barroco tuvo 
+                              una larga duración en Hispanoamérica, por lo que el Neoclasicismo llegó 
+                              relativamente tarde a la zona.
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="pills-monitor"
+                        role="tabpanel"
+                        aria-labelledby="pills-monitor-tab"
+                      >
+                        <div class="row">
+                          <div class="image-container col-md-3">
+                            <img
+                              src="../../assets/images/course/Modulo_1/ninoo_libro.jpeg"
+                              alt="monitor"
+                            />
+                            <!-- 72549304 -->
+                          </div>
+                          <div class="col-md-9">
+                            <h5>
+                              El gran impacto que el Barroco tuvo sobre la región hispanoamericana se 
+                              atribuye primordialmente por el retraso de la llegada del neoclasicismo, 
+                              sin embargo historiadores como Carilla [Hh, 260-270] atribuyen otros elementos 
+                              de contexto social que pudieron haber tenido peso sobre este retraso, tales como 
+                              ‘la contrarreforma, la prohibición que pesaba sobre muchos libros, el cerrado sistema 
+                              social de la colonia, la escasez de imprentas, los precarios circuitos de difusión 
+                              de la palabra escrita, entre otros’. Características literarias del periodo, como 
+                              respuesta al abuso de ornamentación del Barroco y del Rococó, consisten en un 
+                              relato de carácter sereno, objetivo, y lógico. 
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="pills-bocina"
+                        role="tabpanel"
+                        aria-labelledby="pills-bocina-tab"
+                      >
+                        <div class="row">
+                          <div class="image-container col-md-3">
+                            <img
+                              src="../../assets/images/course/Modulo_2/Modulo2_homeroliada.jpeg"
+                              alt="bocina"
+                            />
+                            <!--243749458-->
+                          </div>
+                          <div class="col-md-9">
+                            <h5>
+                              Durante el periodo del neoclasicismo se comenzaron a intercalar influencias 
+                              europeas distintas al clásico Español e incluso italianas, incorporando ahora 
+                              influencias y sugerencias francesas, norteamericanas e inglesas. Gracias a que 
+                              durante este periodo despierta el interés por las matemáticas, ciencias, filosofía 
+                              y lingüística, la literatura vista a lo largo de este periodo es más estructurada 
+                              y organizada. Por este mismo motivo, la falta de dramatización, ornamentación, y 
+                              general interés por la forma causa que la expresión de sentimientos humanos a través 
+                              de poesía no sea tan común; mismo motivo por el que la prosa se desarrolló mucho más 
+                              que el verso durante este periodo, siendo más variada y rica. Existieron poetas 
+                              notorios dentro del periodo Neoclásico, tales como Juan José de Arriola (México, 1698-1768) 
+                              que escribió Décimas de Santa Rosalía (1766) y Canción a un desengaño (1755); sin embargo 
+                              para la época fue de mayor importancia la traducción de épicos griegos y latinos, tal como 
+                              La Ilíada de Homero, traducida por Francismo Javier Alegre (México, 1729-1788). 
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="pills-disp"
+                        role="tabpanel"
+                        aria-labelledby="pills-disp-tab"
+                      >
+                        <div class="row">
+                          <div class="image-container col-md-3">
+                            <img
+                              src="../../assets/images/course/Modulo_2/Modulo2_maria.png"
+                              alt="dispositivo"
+                            />
+                            <!--588489035-->
+                          </div>
+                          <div class="col-md-9">
+                            <h5>
+                              Finalmente, un elemento de alta importancia que nació durante el periodo 
+                              del Neoclasicismo fue el periodismo, el cual fue implementado para difundir 
+                              descubrimientos y conocimientos sobre las ciencias, noticias importantes 
+                              sobre las llegadas de barcos españoles, y la difusión de obras literarias 
+                              locales para llenar los huecos sin noticias.
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+          <aside>
+            <!-- Modal for Unidad principal-->
+            <div class="modal fade" id="CPU" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2 class="modal-title align-self-center">
+                      Dispositivos salida
+                    </h2>
+                    <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <h5>
+                      La unidad principal es un gabinete o chasis que contiene
+                      todos los componentes electrónicos de una computadora que
+                      son usados para procesar los datos. Los circuitos de la
+                      unidad principal usualmente son parte de o están
+                      conectados a los circuitos de una tarjeta llamada “tarjeta
+                      madre”. Dos componentes principales de la tarjeta madre
+                      son:
+                    </h5>
+                    <ul
+                      class="nav nav-pills mb-3 pt-3"
+                      id="pills-tab"
+                      role="tablist"
+                    >
+                      <li class="nav-item">
+                        <a
+                          class="nav-link active"
+                          id="pills-process-tab"
+                          data-toggle="pill"
+                          href="#pills-process"
+                          role="tab"
+                          aria-controls="pills-process"
+                          aria-selected="true"
+                          >Procesador</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a
+                          class="nav-link"
+                          id="pills-memory-tab"
+                          data-toggle="pill"
+                          href="#pills-memory"
+                          role="tab"
+                          aria-controls="pills-memory"
+                          aria-selected="false"
+                          >Memoria</a
+                        >
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                      <div
+                        class="tab-pane fade show active"
+                        id="pills-process"
+                        role="tabpanel"
+                        aria-labelledby="pills-process-tab"
+                      >
+                        <div class="row">
+                          <div class="image-container col-md-3">
+                            <img
+                              src="../../assets/images/course/modulo1/m1-21/shutterstock_1353897677.jpg"
+                              alt="procesador"
+                            />
+                            <!--1448576588-->
+                          </div>
+                          <div class="col-md-9">
+                            <h5>
+                              Es el componente electrónico que interpreta y
+                              lleva a cabo las instrucciones básicas que operan
+                              la computadora.
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="pills-memory"
+                        role="tabpanel"
+                        aria-labelledby="pills-memory-tab"
+                      >
+                        <div class="row">
+                          <div class="image-container col-md-3">
+                            <img
+                              src="../../assets/images/course/modulo1/m1-21/shutterstock_1353897677.jpg"
+                              alt="Memoria"
+                            />
+                            <!-- 159188519-->
+                          </div>
+                          <div class="col-md-9">
+                            <h5>
+                              Consiste de componentes electrónicos que almacenan
+                              instrucciones esperando a ser ejecutadas y datos
+                              que son necesitados por aquellas instrucciones.
+                              Aunque algunos tipos de memoria son permanentes,
+                              la mayoría de las memorias mantienen datos e
+                              instrucciones de forma temporal lo cual significa
+                              que el contenido es eliminado cuando se apaga la
+                              computadora.
+                            </h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+          <!-- Footer START -->
+          <footer class="content-footer"></footer>
+          <!-- Footer END -->
+        </div>
+        <!-- Page Container END -->
+      </div>
+    </div>
+
+    <!-- build:js assets/js/vendor.js -->
+    <!-- plugins js -->
+    <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../assets/vendors/PACE/pace.min.js"></script>
+    <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+
+    <!-- Progress plugins -->
+    <script src="../../assets/js/progressbar.js"></script>
+    <script src="../../assets/js/progress-circle.js"></script>
+
+    <!-- endbuild -->
+    <!-- build:js assets/js/app.min.js -->
+    <!-- core js -->
+    <script src="../../assets/js/app.js"></script>
+    <script src="../../assets/js/recycled/navigationbar.js"></script>
+    <script src="../../assets/js/progress/url-script.js"></script>
+
+    <!-- endbuild -->
+    <script src="../../assets/js/scripts/modulo2/modulo2-5.js"></script>
+    <script>
+      function showModal(i) {
+        switch (i) {
+          case 1:
+            $("#inputDev").modal({
+              show: true,
+            });
+            break;
+          case 2:
+            $("#outputDev").modal({
+              show: true,
+            });
+            break;
+          case 3:
+            $("#CPU").modal({
+              show: true,
+            });
+            break;
+        }
+      }
+    </script>
+
+    <!-- Insert your dependencies here -->
+  </body>
+</html>

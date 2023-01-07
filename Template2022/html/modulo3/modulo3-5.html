@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
+    />
+    <title>Módulo 3: Tabs | CVA - Centro Virtual de Aprendizaje</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/images/logo/favicon.png" />
+
+    <!-- plugins css -->
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/PACE/themes/blue/pace-theme-minimal.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../assets/vendors/perfect-scrollbar/css/perfect-scrollbar.min.css"
+    />
+
+    <!-- page plugins css -->
+
+    <!-- core css -->
+    <link href="../../assets/css/ei-icon.css" rel="stylesheet" />
+    <link href="../../assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="../../assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../../assets/css/animate.min.css" rel="stylesheet" />
+    <link href="../../assets/css/app.css" rel="stylesheet" />
+    <link href="../../assets/css/progress.css" rel="stylesheet" />
+    <link href="../../assets/css/progress-circle.css" rel="stylesheet" />
+  </head>
+
+  <body class="header-info side-nav-dark">
+    <div class="app">
+      <div class="layout">
+        <!-- Side Nav START -->
+        <div class="side-nav" id="sideNav"></div>
+        <!-- Side Nav END -->
+
+        <!-- Page Container START -->
+        <div class="page-container">
+          <!-- Header START -->
+          <div class="header navbar"></div>
+          <!-- Header END -->
+
+          <!-- theme configurator START -->
+          <div class="theme-configurator">
+            <div class="configurator-wrapper">
+              <div class="config-header">
+                <h4 class="config-title">UI Panel</h4>
+                <button class="config-close">
+                  <i class="ti-close"></i>
+                </button>
+              </div>
+              <div class="config-body">
+                <div class="mrg-btm-30">
+                  <p class="lead font-weight-normal">Header Color</p>
+
+                  <div class="theme-colors header-success">
+                    <input type="radio" id="header-success" name="theme" />
+                    <label for="header-success"></label>
+                  </div>
+                  <div class="theme-colors header-danger">
+                    <input type="radio" id="header-danger" name="theme" />
+                    <label for="header-danger"></label>
+                  </div>
+                  <div class="theme-colors header-dark">
+                    <input type="radio" id="header-dark" name="theme" />
+                    <label for="header-dark"></label>
+                  </div>
+                </div>
+                <div class="mrg-btm-30">
+                  <p class="lead font-weight-normal">Sidebar Color</p>
+                  <div class="theme-colors sidenav-default">
+                    <input type="radio" id="sidenav-default" name="sidenav" />
+                    <label for="sidenav-default"></label>
+                  </div>
+                  <div class="theme-colors side-nav-dark">
+                    <input type="radio" id="side-nav-dark" name="sidenav" />
+                    <label for="side-nav-dark"></label>
+                  </div>
+                </div>
+                                <div class="mrg-btm-30">
+                  <p>
+                    Componentes de la UI
+                    <ul>
+                      <li >
+                        <a href="./modulo3-2.html">Botones</a>
+                        
+                      </li>
+                      <li> <a href="./modulo3-3.html">Cards</a> </li>
+                      <li> <a href="./modulo3-4.html">Iconos</a></li>
+                      <li> <a href="./modulo3-5.html">Modales</a></li>
+                      <li> <a href="./modulo3-6.html">Notificaciones</a></li>
+                      <li> <a href="./modulo3-7.html">Tabuladores</a></li>
+                      <li> <a href="./modulo3-8.html">Tipografías</a></li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- theme configurator END -->
+
+          <!-- Theme Toggle Button START -->
+          <button class="theme-toggle btn btn-rounded btn-icon">
+            <i class="ti-palette"></i>
+          </button>
+          <!-- Theme Toggle Button END -->
+          <!-- Content Wrapper START -->
+          <div class="main-content">
+            <div class="container-fluid">
+
+              <div class="row">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-horizon">
+                      <div class="image-container col-md-4">
+                        <div
+                          class="background-holder has-content"
+                          style="
+                            background-image: url('../../assets/images/course/Modulo_3/tintaypapel_.jpeg');
+                          "
+                        ></div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-8 ml-auto">
+                          <div class="card-block">
+                            <h2 class="mrg-btm-20 card-title">
+                              <span
+                                class="badge badge-light"
+                                style="font-size: 24px"
+                                >Tema 3: La poesía</span
+                              >
+                            </h2>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <p class="card-info p-2 mb-3">
+                              <label
+                                ><i class="icon iconin ti-mouse-alt"></i> Haz clic en las
+                                pestañas para ver el contenido.</label
+                              >
+                            </p>
+                            <br>
+                            <br>
+                            <br>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div
+                    id="accordion-1"
+                    class="accordion panel-group"
+                    role="tablist"
+                    aria-multiselectable="true"
+                    style="border: radius 10px;">
+                    <div class="panel panel-default" style="border-radius:10px ;">
+                      <div class="panel-heading" role="tab" id="headingOne" style="border: radius 10px ;">
+                        <h4 class="panel-title">
+                          <a
+                            data-toggle="collapse"
+                            data-parent="#accordion-1"
+                            href="#collapseOne"
+                          >
+                            <span>Inicios </span>
+                            <i class="icon ti-arrow-circle-down"></i>
+                          </a>
+                        </h4>
+                      </div>
+
+                      <div
+                        id="collapseOne"
+                        class="collapse panel-collapse"
+                      >
+                        <div class="panel-body">
+                          <p>
+                            La poesía es el género del que más se ha documentado a través de los siglos, 
+                            ya que hasta la segunda mitad del siglo XIX esta era la más prestigiosa. Dentro 
+                            del verso existe una distinción entre las cualidades de los poemas extensos y los 
+                            poemas breves; ya que los poemas extensos tienden a ser de carácter épico y de influencias 
+                            más americanas, mientras que los poemas breves tienden a abundar temáticas del sentimiento humano.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                          <a
+                            class="collapsed"
+                            data-toggle="collapse"
+                            data-parent="#accordion-1"
+                            href="#collapseTwo"
+                          >
+                            <span>Origines</span>
+                            <i class="icon ti-arrow-circle-down"></i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div
+                        id="collapseTwo"
+                        class="collapse panel-collapse"
+                        role="tabpanel"
+                      >
+                        <div class="panel-body">
+                          <p>
+                            Bajo la conquista de España, los primeros registros de Hispanoamérica continuaban 
+                            siguiendo sus patrones de la lengua; por lo que la poesía en hispanoamérica comenzó 
+                            siguiendo los patrones de métrica medievales de escritura española. Sin embargo, bajo 
+                            la influencia de españoles que seguían la escuela de Garcilaso, se comenzaron a implementar 
+                            métricas italianas; las cuales han permanecido en la poesía hispana hasta la fecha.  
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                          <a
+                            class="collapsed"
+                            data-toggle="collapse"
+                            data-parent="#accordion-1"
+                            href="#collapseThree"
+                          >
+                            <span>Influencia italiana </span>
+                            <i class="icon ti-arrow-circle-down"></i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div
+                        id="collapseThree"
+                        class="collapse panel-collapse"
+                        role="tabpanel"
+                      >
+                        <div class="panel-body">
+                          <p>
+                            Estas influencias italianas contribuyeron con temas amorosos o mitológicos, 
+                            sonetos, liras, tercetos, octavas reales, entre otros. Vale la pena mencionar 
+                            que estos no fueron los únicos formatos de europa occidental que se ven ahora 
+                            presentes en la poesía hispanoamericana, ya que formatos como el himno, la oda, 
+                            la canción, el canto, la letrilla, la alocución, y la silva también han sido formatos 
+                            populares en la poesía hispanoamericana desde el periodo del Neoclasicismo.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div
+                    id="accordion-2"
+                    class="accordion panel-group"
+                    role="tablist"
+                    aria-multiselectable="true"
+                  >
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="heading-2-One">
+                        <h4 class="panel-title">
+                          <a
+                            class="collapsed"
+                            data-toggle="collapse"
+                            data-parent="#accordion-2"
+                            href="#collapse-2-One"
+                          >
+                            <span>Evolución</span>
+                            <i class="icon ti-arrow-circle-down"></i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapse-2-One" class="collapse panel-collapse">
+                        <div class="panel-body">
+                          <p>
+                            Esta evolución de la poesía continua en cada país de Hispanoamérica, 
+                            combinando las influencias provenientes de Europa con los mismos idiomas 
+                            y léxicos de cada región. Particularmente en México, el escritor español 
+                            Juan de la Cueva es el atribuido con el primer poema que incorpora la 
+                            estructura y carácter poético español con vocabulario y mitología indigena 
+                            en una Epístola. Dentro de esta pieza utiliza vocabulario indígena como 
+                            aguacate, chicozapote, pipián, capulí,  al igual como alude a figuras 
+                            mexicanas como Moctezuma y Malinche. 
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="heading-2-Two">
+                        <h4 class="panel-title">
+                          <a
+                            data-toggle="collapse"
+                            data-parent="#accordion-2"
+                            href="#collapse-2-Two"
+                          >
+                            <span>poesía gauchesca</span>
+                            <i class="icon ti-arrow-circle-down"></i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div
+                        id="collapse-2-Two"
+                        class="collapse panel-collapse"
+                      >
+                        <div class="panel-body">
+                          <p>
+                            A como esta evolución y fusión entre las influencias europeas y las indígenas continuaba, 
+                            se desarrollaron estructuras, métricas y temáticas propias de Hispanoamérica; la más notoria 
+                            siendo la poesía gauchesca. El gaucho es representado como un personaje trágico y rural que 
+                            sirve para representar los deseos y postura de una gran parte de la población hispanoamericana 
+                            del siglo XIX. Este personaje defiende la cultura y derechos de su pueblo contra la presión 
+                            del cambio a un mundo de ciudad. A través de este personaje, la poesía gauchesca encarna los 
+                            sentimientos del pueblo hispanoamericano, empatizando con su sufrimiento, problemas y aspiraciones.
+                             Siendo el primer género de poesía de completo origen hispanoamericano, la creación del género 
+                             es atribuida al poeta uruguayo Bartolomé Hidalgo, con su obra Cielitos y Diálogos.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div
+                        class="panel-heading"
+                        role="tab"
+                        id="heading-2-Three"
+                      >
+                        <h4 class="panel-title">
+                          <a
+                            data-toggle="collapse"
+                            data-parent="#accordion-2"
+                            href="#collapse-2-Three"
+                          >
+                            <span>Mon Calamari </span>
+                            <i class="icon ti-arrow-circle-down"></i>
+                          </a>
+                        </h4>
+                      </div>
+                      <div
+                        id="collapse-2-Three"
+                        class="collapse panel-collapse"
+                      >
+                        <div class="panel-body">
+                          <p>
+                            La poesía hispanoamericana continuó evolucionando, sin embargo las influencias 
+                            europeas nunca se fueron por completo. Contemplando este híbrido de dominios, el 
+                            llevar a cabo un análisis de estructura de versos, estrofas y métricas requiere 
+                            tomar en consideración este marco histórico que forma la poesía hispanoamericana. 
+                            Esta información se verá más a fondo en el Módulo 4.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--Botones de avance entre páginas-->
+              <div class="row mrg-btm-20">
+                <div class="col text-center">
+                  <div class="btn-group"></div>
+                </div>
+              </div>
+              <!--Widgets de avance de módulo y general-->
+              <div class="card widget-feed">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <h1 class="feed-title tag tag-info">Módulo 3</h1>
+                    <h3 class="feed-subtitle">Tu Progreso</h3>
+                    <div class="progress" style="height: 20px" id="bar">
+                      <div
+                        class="progress-bar bg-info"
+                        role="progressbar"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="max-width: 38%"
+                      >
+                        38%
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="row">
+                      <div class="col">
+                        <div id="circlecontainer"></div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col text-center">
+                        <h3 class="feed-subtitle">
+                          Pr ogreso General del Curso
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Content Wrapper END -->
+
+          <!-- Footer START -->
+          <footer class="content-footer"></footer>
+          <!-- Footer END -->
+        </div>
+        <!-- Page Container END -->
+      </div>
+    </div>
+
+    <!-- build:js assets/js/vendor.js -->
+    <!-- plugins js -->
+    <script src="../../assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/js/recycled/navigationbar.js"></script>
+    <script src="../../assets/vendors/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/vendors/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../../assets/vendors/PACE/pace.min.js"></script>
+    <script src="../../assets/vendors/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+
+    <!-- Progress plugins -->
+    <script src="../../assets/js/progressbar.js"></script>
+    <script src="../../assets/js/progress-circle.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- build:js assets/js/app.min.js -->
+    <!-- core js -->
+    <script src="../../assets/js/app.js"></script>
+    <script src="../../assets/js/recycled/navigationbar.js"></script>
+    <script src="../../assets/js/progress/url-script.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- Insert your dependencies here -->
+  </body>
+</html>

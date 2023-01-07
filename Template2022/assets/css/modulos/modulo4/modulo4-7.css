@@ -1,0 +1,46 @@
+.carousell {
+width: 100%;
+text-align: center;
+/* display:block; */
+height: 650px;
+
+}
+.carousell page {
+position: absolute;
+width: 80%;
+transition: transform 0.5s;
+transform: scale(0);
+left: 50px;
+padding-left: 15%;
+
+
+}
+.carousell page div {
+padding: 3em;
+
+}
+.carousell page label {
+cursor: pointer;
+background: #d9ff4f;
+padding: 1em 2em;
+}
+
+.carousell input{
+    text-align: center;
+}
+
+.carousell #page1cb:checked ~ #page1 {
+transform: scale(1);
+}
+.carousell #page2cb:checked ~ #page2 {
+transform: scale(1);
+}
+.carousell #page3cb:checked ~ #page3 {
+transform: scale(1);
+}
+.carousell #page4cb:checked ~ #page4 {
+transform: scale(1);
+}
+.carousell #page5cb:checked ~ #page5 {
+transform: scale(1);
+}

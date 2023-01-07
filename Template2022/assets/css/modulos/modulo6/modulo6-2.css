@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Monofett);
+div.cardd{
+  float: left;
+  text-align: center;
+  width: 1em;
+  height: 1.5em;
+  margin-left: -20px;
+  font-size: 120px;
+  border: solid #59ed8b 1px;
+  background-color: #59ed8b;
+  word-spacing: 1em;
+  border-radius: 10px; 
+  -moz-transform:rotate(-10deg);  
+  -webkit-transform:rotate(-10deg);  
+  -o-transform:rotate(-10deg);  
+  -ms-transform:rotate(-10deg); 
+  margin-top: 10px;
+  font-family: 'Monofett', cursive;
+}
+
+div.color1{
+  border: solid #4b0e4d 1px;
+  background-color: #4b0e4d;
+  -moz-transform:rotate(10deg);  
+  -webkit-transform:rotate(10deg);  
+  -o-transform:rotate(10deg);  
+  -ms-transform:rotate(10deg); 
+}
+
+div.color2{
+  border: solid #0191b5 1px;
+  background-color: #0191b5;
+  -moz-transform:rotate(5deg);  
+  -webkit-transform:rotate(5deg);  
+  -o-transform:rotate(5deg);  
+  -ms-transform:rotate(5deg); 
+}
+
+
+div.down{
+  margin-top: 12px;
+  -webkit-transform:rotate(0deg);  -moz-transform:rotate(0deg);  
+  -webkit-transform:rotate(0deg);  
+  -o-transform:rotate(0deg);  
+  -ms-transform:rotate(0deg); 
+}
+
+div.up{
+  margin-top: -12px;
+  -moz-transform:rotate(0deg);  
+  -webkit-transform:rotate(0deg);  
+  -o-transform:rotate(0deg);  
+  -ms-transform:rotate(0deg); 
+}
+
+.espazio{
+    padding-left: 10%;
+    padding-bottom: 3%;
+}
